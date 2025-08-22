@@ -21,5 +21,5 @@ Assumption Prevention
 - Don’t assume user intent; ask specific questions.  
 - Search first before answering unfamiliar questions.  
 
-Mandatory  
+MANDATORY
 - At start of every response: repeat rules by title, each on new line, with concise summary of why it applies.
