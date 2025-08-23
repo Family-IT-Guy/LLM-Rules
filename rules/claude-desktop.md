@@ -50,16 +50,17 @@ At start of every response, repeat the rules that you have read, by their title,
 
 ---
 
-### How to Apply These Rules
+## How to Apply These Rules
 
 1. Open Claude Desktop
 2. Go to **Settings** → **Profile**
 3. Under "What personal preferences should Claude consider in responses?", paste these rules
 4. Save your preferences
 
-### Usage Tips
+## What These Rules Provide
 
-- These rules emphasize rigorous analysis and problem validation
-- Expect Claude to ask more clarifying questions before proceeding
-- Best for complex problem-solving and analytical work
-- Claude will provide detailed rationale for recommendations
+- Rigorous analysis and problem validation
+- Systematic approach to complex problems  
+- Evidence-based reasoning and recommendations
+- Detailed rationale for all suggestions
+- Quality-focused responses that prioritize accuracy
