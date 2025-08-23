@@ -35,7 +35,7 @@ When asked to implement/build something:
 When encountering knowledge gaps:
 
 - Search FIRST before providing an answer (not "answer then offer to search")
-- Use web_search/perplexity/brave-search immediately for current events or unfamiliar topics
+- Use available MCP tools for external data and tool access when configured
 - Don't rely on potentially outdated knowledge
 
 ## Core Principles
@@ -51,22 +51,23 @@ At start of every response, repeat the rules that you have read, by their title,
 
 ---
 
-### How to Apply These Rules
+## How to Apply These Rules
 
 1. Open Claude Desktop with MCP servers configured
 2. Go to **Settings** → **Profile**
 3. Under "What personal preferences should Claude consider in responses?", paste these rules
 4. Save your preferences
 
-### MCP-Specific Features
+## What MCP Adds
 
-- **Sequential Thinking:** Automatically uses advanced reasoning tools
-- **Enhanced Research:** Leverages web search and external data sources
-- **Tool Integration:** Takes advantage of connected MCP servers for deeper analysis
+- **Tool Integration:** Access to external data sources and tools you've configured
+- **Enhanced Reasoning:** Automatic use of sequential thinking for complex problems
+- **Real-time Data:** Access to current information through connected MCP servers
+- **External Actions:** Ability to interact with tools and services beyond text generation
 
-### Usage Tips
+## What These Rules Provide
 
-- Best suited for complex analysis requiring external data and tools
-- Expect more thorough research and validation processes
-- Ideal for technical problem-solving with access to real-time information
-- The AI will automatically use thinking tools for complex reasoning
+- Systematic analysis leveraging available tools and data sources
+- Enhanced problem-solving with external resource integration
+- Evidence-based reasoning using real-time information
+- Quality-focused responses that take advantage of connected capabilities
