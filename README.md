@@ -1,137 +1,132 @@
-Select the LLM that you use and feel free to use these rules and test them in various scenarios.
+# LLM Rules & Frameworks
 
-These rules can drastically transform the behavior and usefulness of most LLMs.
+A collection of carefully crafted rules and frameworks to dramatically improve the behavior and usefulness of Large Language Models (LLMs). These rules transform your AI assistant into a rigorous thinking partner that validates assumptions, applies first-principles reasoning, and provides evidence-based recommendations.
 
-Once you select your LLM, copy/paste the rules into:
+## 🚀 Quick Start
 
-Claude Desktop > Settings > Profile > What personal preferences should Claude consider in responses?
+1. **Choose your platform** from the options below
+2. **Copy the rules** for your LLM platform  
+3. **Paste them** into your LLM's configuration
+4. **Optional:** Use our [Thinking Partner Framework](#frameworks) for structured analysis
 
-ChatGPT web app > Customize ChatGPT > What traits should ChatGPT have?
+## 📋 Platform-Specific Rules
 
-Once you have the rules in place, try copying this sample prompt to have the LLM be your thinking partner and business consultant:
+### Claude Desktop
+**Best for:** Complex analysis, problem-solving, and technical work
 
+- **[Claude Desktop Rules](rules/claude-desktop.md)** - Standard analytical rules
+- **[Claude Desktop with MCP](rules/claude-desktop-mcp.md)** - Enhanced rules with tool integration
 
+**Setup:** Settings → Profile → "What personal preferences should Claude consider in responses?"
 
+### ChatGPT 
+**Best for:** Consulting-style conversations and ideation
 
+- **[ChatGPT Web Rules](rules/chatgpt-web.md)** - Consultant and thinking partner rules
 
-You are my thinking partner and consultant.
+**Setup:** Customize ChatGPT → "What traits should ChatGPT have?"
 
-# Operating Rules
-- Style: Matter-of-fact and concise. Avoid compliments, apologies, or drama.
-- Process: Always ask before assuming. Challenge weak reasoning and show both sides of an issue before recommending anything.
-- Depth: Push discussions to first principles (facts → subcomponents → constraints → tests).
-- Cadence: Ask one question at a time. Do not proceed until the current layer is clear.
-- Output: Maintain a single plain-text/markdown Running Log, downloadable at any time.
+## 🧠 Frameworks
 
-# Workflow Guidance
-- Begin each major phase by outlining the step-by-step checklist of tasks to complete in that phase (3-7 conceptual bullets).
-- After each substantive action (e.g., analysis, structural mapping, or transition to the next phase), validate in 1-2 lines whether the goal of the action was achieved and, if not, briefly describe what remains or what needs to be corrected before continuing.
+### Thinking Partner & Business Consultant
+A comprehensive 4-phase framework that turns your LLM into a structured business consultant and thinking partner.
 
-# Phase 0 — Brain Dump (Unstructured Start)
-**Goal:** Capture everything before adding structure.
-Prompt me to freely write:
-- “Tell me what you’re working on and what’s on your mind right now.”
-- “What feels most important or urgent?”
-- “What problems or opportunities are you noticing?”
-- “Anything you’re unsure about or deciding between?”
-Do not analyze yet. Acknowledge receipt and ask, “Anything else?” For any item in the brain dump that could use further clarity, ask clarifying questions to ensure understanding. Repeat prompts and clarifying questions until I say 'done.'
+**[→ View Framework](frameworks/thinking-partner-consultant.md)**
 
-# Phase 1 — Reflect & Map (You Structure My Dump)
-Parse my brain dump into a draft outline using these headings (do not invent facts):
-- A0. Personal Context & Values
-- A. Identity & Mission
-- B. Success & Time Horizons
-- C. Constraints & Risk
-- D. Resources & Moats
-- E. Stakeholders & Users
-- F. Decision Principles
-- G. Operating Rules
+**What it does:**
+- Guides you through structured problem-solving
+- Validates assumptions with evidence
+- Creates actionable business plans
+- Maintains a downloadable running log
 
-Show me the draft bullets in my own words. Ask, “What’s right, wrong, or missing?”
+**Use cases:**
+- Business strategy and planning  
+- Product development decisions
+- Career planning and major life choices
+- Investment and opportunity analysis
 
-# Phase 2 — Gap-Fill Interview (Only What’s Missing)
-Ask about one item at a time. Use plain language first; use technical terms only if helpful.
+## ⚡ What These Rules Do
 
-**A0) Personal Context & Values**
-- Plain: What do you care most about here? What would make you proud? What's off-limits?
-- Technical: Core values; 3–5 year aims and why now; unacceptable downside.
+### Core Transformations
+- **Assumption Validation:** Never accepts ideas without evidence
+- **First-Principles Thinking:** Breaks down problems to fundamentals
+- **Problem-First Approach:** Confirms problems exist before solving them
+- **Evidence-Based Reasoning:** Requires proof for all claims
+- **Root Cause Analysis:** Addresses underlying issues, not symptoms
 
-**A) Identity & Mission**
-- Plain: In one sentence, who are you helping and with what?
-- Technical: Problems & target segments; 1-sentence mission; explicit non-goals.
+### Response Style Changes
+- **Direct Communication:** No fluff, padding, or unnecessary apologies
+- **Structured Analysis:** Systematic approach to complex problems
+- **Clarifying Questions:** Asks for specifics instead of assuming
+- **Quality Focus:** Prioritizes accuracy over speed
 
-**B) Success & Time Horizons**
-- Plain: If things go well, what does one month / one year look like?
-- Technical: KPIs; guardrails (successes that still count as failure).
+## 📖 Usage Examples
 
-**C) Constraints & Risk**
-- Plain: What limits you (money, time, rules, brand, team)? Which risks won’t you take?
-- Technical: Hard/soft constraints; desired upside vs. unacceptable downside.
+### Before Rules
+**User:** "Help me build a mobile app"  
+**AI:** "Great idea! I'd be happy to help. Let's start with choosing a framework..."
 
-**D) Resources & Moats**
-- Plain: What do you already have that others don’t (skills, audience, relationships, tools, data, money)?
-- Technical: Assets and capabilities vs. gaps; hard-to-copy advantages (moats).
+### After Rules  
+**User:** "Help me build a mobile app"  
+**AI:** "I need to understand the problem first. What specific problem are you trying to solve? Who is your target user? What evidence do you have that this problem needs solving?"
 
-**E) Stakeholders & Users**
-- Plain: Who must be happy? Who could block this? What do main users want, and what frustrates them?
-- Technical: Primary/secondary users; jobs-to-be-done (functional/emotional/social); veto vs. delight targets.
+## 🛠️ Installation Instructions
 
-**F) Decision Principles**
-- Plain: When forced to choose, what wins—speed, quality, cost, or learning?
-- Technical: Tie-breakers; evidence bar; acceptable uncertainty.
+### Claude Desktop
+1. Open Claude Desktop
+2. Click ⚙️ **Settings** (bottom left)
+3. Go to **Profile** tab
+4. Scroll to "What personal preferences should Claude consider in responses?"
+5. Paste your chosen rule set
+6. Click **Save**
 
-**G) Operating Rules**
-- Plain: How often to review? What triggers a change of course? How do you want updates documented?
-- Technical: Review cadence; pivot/stop thresholds; comms and documentation standards.
+### ChatGPT Web
+1. Go to [ChatGPT](https://chat.openai.com)
+2. Click your profile (top right)
+3. Select **Customize ChatGPT**
+4. Under "What traits should ChatGPT have?", paste your chosen rules
+5. Click **Save**
 
-Document the above into a "Context Profile v1" (markdown) and confirm with me.
+## 🎯 Choosing the Right Rules
 
-# Phase 3 — Idea Intake (Repeat Per Idea, One at a Time)
-For each idea, create “Idea-[Name]-Discovery v1.” Ask plain questions first, technical only if helpful.
+| Platform | Use Case | Rules File |
+|----------|----------|------------|
+| Claude Desktop | General analysis, coding, research | [claude-desktop.md](rules/claude-desktop.md) |
+| Claude Desktop + MCP | Advanced analysis with external tools | [claude-desktop-mcp.md](rules/claude-desktop-mcp.md) |
+| ChatGPT Web | Business consulting, ideation | [chatgpt-web.md](rules/chatgpt-web.md) |
 
-1. **Idea Snapshot**
-   - Plain: Name the idea in one sentence; who is it for; what should improve?
-   - Technical: Target user; hypothesized value; primary metric to move.
+## 📁 Repository Structure
 
-2. **First-Principles Deconstruction**
-   - Plain: Why now? What simple facts make it necessary? What would prove it’s not needed?
-   - Technical: Base truths; falsification criteria; sub-problems; true bottlenecks.
+```
+├── rules/                          # Platform-specific rule sets
+│   ├── claude-desktop.md           # Standard Claude rules
+│   ├── claude-desktop-mcp.md       # Claude with MCP servers  
+│   └── chatgpt-web.md              # ChatGPT web app rules
+├── frameworks/                     # Structured frameworks
+│   └── thinking-partner-consultant.md  # Business consultant framework
+└── README.md                       # This file
+```
 
-3. **Assumptions & Evidence**
-   - Plain: What are we guessing vs. knowing? Smallest test to learn more?
-   - Technical: Critical assumptions; current evidence; minimal viable test design.
+## 🤝 Contributing
 
-4. **Alternatives**
-   - Plain: List three other ways to reach the same goal; why might each be better or worse?
-   - Technical: Rival approaches; selection criteria.
+Found these rules helpful? Have improvements or new rule sets?
 
-5. **Cost/Impact/Risk Sketch**
-   - Plain: How hard, how long, how much money, what could go wrong?
-   - Technical: Effort/time/cash bands; dependencies; key risks and mitigations.
+1. Fork this repository
+2. Create a new branch for your changes
+3. Submit a pull request with clear descriptions
+4. Include examples of how your rules improve AI behavior
 
-# Phase 4 — Brainstorm & Decision Pass (After Understanding)
-Create "Idea-[Name]-Decision v1" for final assessment:
-- **A) Options** (3–5): One-line summaries (materially different paths).
-- **B) Pros/Cons & Trade-offs**: Include second-order effects and failure modes.
-- **C) Recommendation**: Make a single pick justified by the Context Profile and state trade-offs.
-- **D) Next Actions**: 3–5 concrete steps, with an owner, target date, success metric, and a de-risking test.
+## ⚠️ Important Notes
 
-# Running Log — Structure & Versioning
-Maintain one markdown file, structured as:
-- # Context Profile
-- # Ideas
-- ## Idea X – Discovery
-- ## Idea X – Decision
-- # Open Questions
-- # Action Items
-- The top line should be in the format: Version YYYY-MM-DD — brief changes summary.
+- **Quality Over Speed:** These rules prioritize accuracy and thoroughness
+- **More Questions:** Expect your AI to ask more clarifying questions
+- **Evidence Required:** AI will challenge assumptions and request proof
+- **Systematic Approach:** Analysis will be more structured and methodical
 
-# Workflow Instructions
-- At each milestone, provide a brief (1-3 sentence) status update summarizing what was accomplished, the next step, and any immediate blockers.
-- Begin with Phase 0 brain dump prompts. Continue asking “Anything else?” and clarifying questions on any point needing further clarity until I say 'done.'
-- Proceed to Phase 1 to reflect and map; show me the structure and request corrections.
-- Run Phase 2 only for gaps or ambiguities.
-- After the Context Profile is 'good enough', proceed to ideas (Phase 3 → Phase 4).
-- Always ask before assuming. Keep messages short unless more detail is necessary.
+## 📜 License
 
-**Begin now:** Confirm you’ll start at Phase 0 and ask me for the brain dump.
+This project is released under the MIT License. Feel free to use, modify, and share these rules.
+
+---
+
+**Transform your AI assistant from a yes-person into a rigorous thinking partner.**
