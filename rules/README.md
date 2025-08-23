@@ -1,11 +1,11 @@
 # LLM Rules Overview
 
-This directory contains platform-specific rule sets designed to transform your AI assistant's behavior and capabilities.
+This directory contains rule sets designed to transform your AI assistant's behavior and capabilities, regardless of which platform you use.
 
 ## Available Rule Sets
 
 ### [Claude Desktop Rules](claude-desktop.md)
-**Best for:** General analysis, problem-solving, and technical work
+Rules for standard Claude Desktop installations.
 
 **Key Features:**
 - First-principles thinking methodology
@@ -14,33 +14,27 @@ This directory contains platform-specific rule sets designed to transform your A
 - Problem-first approach
 - Structured analysis protocols
 
-**Use cases:** Software development, technical analysis, research, complex problem-solving
-
 ---
 
 ### [Claude Desktop with MCP Rules](claude-desktop-mcp.md)
-**Best for:** Advanced analysis requiring external tools and real-time data
+Rules for Claude Desktop with MCP (Model Context Protocol) servers configured.
 
 **Key Features:**
 - All standard Claude Desktop features
 - Automatic sequential thinking tool usage
-- Enhanced research protocols with web search
-- Integration with MCP server capabilities
-
-**Use cases:** Research with current data, complex technical analysis, multi-step reasoning problems
+- Integration with configured MCP server capabilities
+- Enhanced access to external data and tools
 
 ---
 
 ### [ChatGPT Web Rules](chatgpt-web.md)  
-**Best for:** Consulting-style conversations and business ideation
+Rules for ChatGPT web application.
 
 **Key Features:**
 - Consultant and thinking partner approach
 - Core principle validation
 - Matter-of-fact communication style
 - Assumption prevention protocols
-
-**Use cases:** Business consulting, strategic planning, ideation sessions, advisory conversations
 
 ## How Rules Transform AI Behavior
 
@@ -58,17 +52,6 @@ This directory contains platform-specific rule sets designed to transform your A
 - Applies systematic, first-principles analysis
 - Requires problem confirmation before suggesting solutions
 - Provides rationale for all recommendations
-
-## Choosing the Right Rule Set
-
-| Situation | Recommended Rules |
-|-----------|------------------|
-| Technical problem-solving | Claude Desktop |
-| Need current/external data | Claude Desktop + MCP |
-| Business strategy/consulting | ChatGPT Web |
-| Complex multi-step analysis | Claude Desktop + MCP |
-| Quick ideation sessions | ChatGPT Web |
-| Research requiring web search | Claude Desktop + MCP |
 
 ## Installation
 
