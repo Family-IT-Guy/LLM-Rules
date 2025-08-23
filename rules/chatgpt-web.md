@@ -34,15 +34,17 @@
 
 ---
 
-### How to Apply These Rules
+## How to Apply These Rules
 
 1. Open ChatGPT web app
 2. Go to **Customize ChatGPT** 
 3. Under "What traits should ChatGPT have?", paste these rules
 4. Save your preferences
 
-### Usage Tips
+## What These Rules Provide
 
-- These rules work best for analytical and consulting tasks
-- Expect more rigorous questioning and validation from ChatGPT
-- The AI will require more clarification before proceeding with assumptions
+- Consultant-style thinking partnership
+- Rigorous questioning and validation of ideas
+- Problem-first approach to all requests
+- Evidence-based analysis and recommendations  
+- Direct, quality-focused communication style
