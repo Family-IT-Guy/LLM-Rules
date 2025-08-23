@@ -1,64 +1,56 @@
 # LLM Rules & Frameworks
 
-A collection of carefully crafted rules and frameworks to dramatically improve the behavior and usefulness of Large Language Models (LLMs). These rules transform your AI assistant into a rigorous thinking partner that validates assumptions, applies first-principles reasoning, and provides evidence-based recommendations.
+A collection of carefully crafted rules and frameworks to dramatically improve the behavior and usefulness of Large Language Models (LLMs). These rules transform your AI assistant into a rigorous thinking partner that validates assumptions, applies first-principles reasoning, and provides evidence-based analysis.
 
 ## 🚀 Quick Start
 
-1. **Choose your platform** from the options below
-2. **Copy the rules** for your LLM platform  
-3. **Paste them** into your LLM's configuration
+1. **Find your platform** below
+2. **Copy the rules** for your LLM
+3. **Paste them** into your LLM's configuration  
 4. **Optional:** Use our [Thinking Partner Framework](#frameworks) for structured analysis
 
-## 📋 Platform-Specific Rules
+## 📋 Platform Rules
 
 ### Claude Desktop
-**Best for:** Complex analysis, problem-solving, and technical work
-
-- **[Claude Desktop Rules](rules/claude-desktop.md)** - Standard analytical rules
-- **[Claude Desktop with MCP](rules/claude-desktop-mcp.md)** - Enhanced rules with tool integration
+- **[Claude Desktop Rules](rules/claude-desktop.md)** - Core analytical rules
+- **[Claude Desktop with MCP](rules/claude-desktop-mcp.md)** - Rules with MCP tool integration
 
 **Setup:** Settings → Profile → "What personal preferences should Claude consider in responses?"
 
 ### ChatGPT 
-**Best for:** Consulting-style conversations and ideation
-
-- **[ChatGPT Web Rules](rules/chatgpt-web.md)** - Consultant and thinking partner rules
+- **[ChatGPT Web Rules](rules/chatgpt-web.md)** - Thinking partner rules
 
 **Setup:** Customize ChatGPT → "What traits should ChatGPT have?"
 
 ## 🧠 Frameworks
 
 ### Thinking Partner & Business Consultant
-A comprehensive 4-phase framework that turns your LLM into a structured business consultant and thinking partner.
+A comprehensive 4-phase framework for structured problem-solving and decision-making.
 
 **[→ View Framework](frameworks/thinking-partner-consultant.md)**
 
-**What it does:**
-- Guides you through structured problem-solving
-- Validates assumptions with evidence
-- Creates actionable business plans
-- Maintains a downloadable running log
+**What it provides:**
+- Structured approach to complex problems
+- Systematic assumption validation
+- Evidence-based decision making
+- Downloadable documentation of your thinking process
 
-**Use cases:**
-- Business strategy and planning  
-- Product development decisions
-- Career planning and major life choices
-- Investment and opportunity analysis
+**Use with any platform** - works with all rule sets above.
 
 ## ⚡ What These Rules Do
 
 ### Core Transformations
-- **Assumption Validation:** Never accepts ideas without evidence
+- **Assumption Validation:** Requires evidence before accepting ideas
 - **First-Principles Thinking:** Breaks down problems to fundamentals
 - **Problem-First Approach:** Confirms problems exist before solving them
-- **Evidence-Based Reasoning:** Requires proof for all claims
+- **Evidence-Based Reasoning:** Demands proof for all claims
 - **Root Cause Analysis:** Addresses underlying issues, not symptoms
 
 ### Response Style Changes
-- **Direct Communication:** No fluff, padding, or unnecessary apologies
-- **Structured Analysis:** Systematic approach to complex problems
-- **Clarifying Questions:** Asks for specifics instead of assuming
-- **Quality Focus:** Prioritizes accuracy over speed
+- **Direct Communication:** Eliminates fluff and unnecessary padding
+- **Structured Analysis:** Applies systematic approaches to complex problems
+- **Clarifying Questions:** Requests specifics instead of making assumptions
+- **Quality Focus:** Prioritizes accuracy and thoroughness
 
 ## 📖 Usage Examples
 
@@ -84,16 +76,8 @@ A comprehensive 4-phase framework that turns your LLM into a structured business
 1. Go to [ChatGPT](https://chat.openai.com)
 2. Click your profile (top right)
 3. Select **Customize ChatGPT**
-4. Under "What traits should ChatGPT have?", paste your chosen rules
+4. Under "What traits should ChatGPT have?", paste the rules
 5. Click **Save**
-
-## 🎯 Choosing the Right Rules
-
-| Platform | Use Case | Rules File |
-|----------|----------|------------|
-| Claude Desktop | General analysis, coding, research | [claude-desktop.md](rules/claude-desktop.md) |
-| Claude Desktop + MCP | Advanced analysis with external tools | [claude-desktop-mcp.md](rules/claude-desktop-mcp.md) |
-| ChatGPT Web | Business consulting, ideation | [chatgpt-web.md](rules/chatgpt-web.md) |
 
 ## 📁 Repository Structure
 
@@ -109,19 +93,19 @@ A comprehensive 4-phase framework that turns your LLM into a structured business
 
 ## 🤝 Contributing
 
-Found these rules helpful? Have improvements or new rule sets?
+Found these rules helpful? Have improvements or new rule sets for other platforms?
 
 1. Fork this repository
 2. Create a new branch for your changes
 3. Submit a pull request with clear descriptions
 4. Include examples of how your rules improve AI behavior
 
-## ⚠️ Important Notes
+## ⚠️ What to Expect
 
-- **Quality Over Speed:** These rules prioritize accuracy and thoroughness
-- **More Questions:** Expect your AI to ask more clarifying questions
+- **More Questions:** Your AI will ask more clarifying questions before proceeding
 - **Evidence Required:** AI will challenge assumptions and request proof
 - **Systematic Approach:** Analysis will be more structured and methodical
+- **Quality Over Speed:** Responses prioritize accuracy and thoroughness
 
 ## 📜 License
 
@@ -129,4 +113,4 @@ This project is released under the MIT License. Feel free to use, modify, and sh
 
 ---
 
-**Transform your AI assistant from a yes-person into a rigorous thinking partner.**
+**Transform your AI assistant into a rigorous thinking partner, regardless of which platform you use.**
